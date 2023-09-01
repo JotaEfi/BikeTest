@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px #d9d9d9, 0px 0px 0px #ffffff;
+  padding: 15px 0 15px 0;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  padding: 1% 2%;
+  font-size: calc(1em + 0.4vw);
+}
+
+a:hover,
+.nav {
+  color: #bd0000;
+  transition: 0.13s;
+  opacity: 0.7;
+
+}
+
+.container {
+    display: block;
+}
+.middle {
+  grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 10% 0px 10%;
+}
+.topico1 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.bike_img{
+  height: 40%;
+  size: 100%;
+}
