@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,21 +9,12 @@
     <link rel="shortcut icon" href="/Site html/logosite3.png">
     <link rel="stylesheet" href="/style.css">
     <style>
-        @media screen and (min-width: 601px) {
-            div.example {
-                font-size: 80px;
-            }
+        html {
+            font-size: 62.5%;
         }
 
-        h1,
-        h2,
-        h3 {
-            font-size: 3vw;
-        }
-
-        p,
-        a {
-            font-size: 1.5vw;
+        body {
+            font-size: 1.6rem;
         }
 
         * {
@@ -35,7 +26,6 @@
     </style>
     <link rel="icon" href="/img/BikeTest_Logo.png">
 </head>
-
 
 <body>
     <nav>
@@ -51,36 +41,19 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo consequuntur excepturi culpa rem deleniti, quibusdam quas repellendus enim non cupiditate beatae vitae similique exercitationem perferendis neque esse repudiandae, labore debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam inventore itaque dolores quod, quae, quaerat harum voluptatem hic aut nemo. Modi, similique laudantium quisquam excepturi facilis aliquam autem impedit!Lorem
             </p>
         </div>
-        <figure>
-            <img class="bike_img" src="/img/BikeIMG.webp" />
-            <figure>
-
-
-
+        <img class="bike_img" src="/img/BikeIMG.webp" />
     </section>
-
-
-
     <div class="bottom">
         <h2>Faça sua conta</h2>
-        <div class="inputs">
-            <form action="" style="display: grid; grid-template-rows: 1fr 1fr;">
-                <div class="label_inputs">
-                    <label for="campo_email" class="tex">E-mail</label>
-                    <input type="email" id="campo_email">
-                </div>
-                <div class="label_inputs">
-                    <label for="campo_senha" style="padding-top: 10px;">Senha</label>
-                    <input type="password" id="campo_senha">
-                </div>
-                <div>
-                    <button class="button_cadastro">Cadastrar-se</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-
+        <form action="">
+            <label for="campo_email" class="tex">E-mail:
+            </label>
+            <input placeholder="Digite seu e-mail..." type="email" id="campo_email">
+            <label for="campo_senha">Senha:
+            </label>
+            <input placeholder="Digite sua senha..." type="password" id="campo_senha">
+            <button>Cadastrar-se</button>
+        </form>
     </div>
 </body>
 

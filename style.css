@@ -1,134 +1,108 @@
-html {
-  font-size: 62.5%;
-
-}
-
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   size: 100%;
 }
 nav {
-  size: 100%;
-  font-size: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  background: #ffffff;
+  opacity: 100%;
+  margin: 0 30%;
+  text-align: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 3rem 0rem;
+  margin-bottom: 3%;
   box-shadow: 0px 5px 30px #d9d9d9, 0px 0px 0px #ffffff;
-  padding: 2% 0 2% 0;
 }
 
 nav a {
   color: black;
   text-decoration: none;
-  padding: 1% 2%;
+  padding: 0 2%;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
-
-a:hover,
-nav {
+nav a:hover {
   color: #bd0000;
   transition: 0.13s;
   opacity: 0.7;
-
 }
-
-.container {
-  display: block;
-  size: 100%;
-}
-
-.bike_img{
-  object-position: 50% 50%;
-  height: 50%;
-
-}
-.section1 div h1 {
-  font-size: 3vw;
-  text-align: end;
-  padding-bottom: 1vw;
-}
-.section1 div p {
-  font-size: 1.5vw;
-  text-align: end;
-}
-
-
-
-.bottom{
-  background-color: rgb(32, 32, 32);
-  text-align: center;
-  
-  padding-top: 40px;
-}
-.bottom .inputs form input {
-  padding: 1vw 5vw 1vw 5vw;
-  margin: 0 20vw 0 20vw;
-  border-radius: 20px;
- 
-} 
-.bottom h2 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #ca3900;
-  padding: 13px 5px 13px 5px;
-}
-.bottom .inputs form label {
-  color: white;
-  font-size: 2.5vw;
-  justify-content: center;
-} 
-form {
-  align-items: center;
-  align-self: center;
-  align-content: center ;
-  justify-content: center;
-
-}
-figure .bike_img{
-  size: 100%;
-  height: 40vw;
-}
-.inputs {
-  
-  padding-bottom: 80px;
-  padding-top: 30px;
-}
-.label_inputs {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
-}
-.button_cadastro {
-  font-size: 3vw;
-  margin-top: 40px;
-  padding: 10px 10% 10px 10%;
-  border-radius: 30px;
-  cursor: pointer;
-  color: #ffffff;
-  background-color: #ca3900;
-}
-.button_cadastro:hover {
-  background-color: white;
-  color: #ca3900;
-  transition-duration: 0.3s;
-}
-
 .section1 {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2vw;
+  margin: 0 25% 3% 25%;
+}
+.bike_img{
+  margin: 0 auto;
+  object-fit: cover;
+  height: 31rem;
+  width: 100%;
+
+}
+.section1 div h1 {
+  font-size: 2.5rem;
+  text-align: end;
+
+}
+.section1 div p {
+  font-size: 80%;
+  text-align: end;
+}
+.bottom{
+  background-color: rgb(32, 32, 32);
+ 
+  padding: auto;
+}
+.bottom form{
+  padding: 4rem 0 5rem 0;
   display: grid;
-  padding: 0 8vw 1vw 8vw;
+  margin: 0 30%;
+  grid-template-columns: 1fr;
+}
+.bottom form input {
+  margin: 1rem auto 3rem auto;
+  width: 100%;
+  height: 5rem;
+  padding: .5rem 6rem .5rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+} 
+.bottom form input:hover {
+  background-color: rgb(206, 206, 206);
+  transition: 0.3s;
 }
 
+.bottom form label {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+} 
 .bottom h2 {
-  letter-spacing: 3px;
-  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #d82727;
+  padding: 13px 5px 13px 5px;
 }
+.bottom form button {
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #d82727;
+  border: none;
+  outline: none;
+}
+.bottom form button:hover {
+  background-color: white;
+  color: #d82727;
+  transition-duration: 0.3s;
+}
+
+
 
 /*   
   align-items: center;
